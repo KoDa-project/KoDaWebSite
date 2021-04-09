@@ -26,4 +26,4 @@ index.md
 
 # Testing the website
 
-To render the website locally, run `hugo -server -config=./config/config.toml`
+To render the website locally, run `hugo -serve`
