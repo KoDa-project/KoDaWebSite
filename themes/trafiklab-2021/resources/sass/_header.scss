@@ -1,0 +1,40 @@
+.header {
+  .top-navigation {
+    background: $dark-bg;
+  }
+  .logo {
+    margin: 10px;
+    width: 100px;
+  }
+  .tl-top-navigation-item a {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  .tl-icon-button {
+    margin: 0 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+body.type-data {
+  .header {
+    .top-navigation {
+      background: #fff;
+      .header-right .tl-icon-button {
+        display: none;
+      }
+    }
+    .logo {
+      background: $black;
+      padding: 5px
+    }
+    .tl-top-navigation-item a {
+      color: $black;
+    }
+  }
+}

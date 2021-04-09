@@ -1,0 +1,30 @@
+baseURL = "https://koda.rise.se/"
+defaultContentLanguage  = "en"
+
+title = "KoDa"
+
+# Theme is loaded through a git submodule
+theme = "trafiklab-2021"
+
+enableEmoji = true
+
+# paths
+[permalinks]
+  "/" = "/:title/"
+  posts = "/:section/:title/"
+
+# Multilingual
+[languages]
+  [languages.en]
+  languageName = "English"
+  weight = 2
+
+  [languages.sv]
+  languageName = "Svenska"
+  weight = 1
+
+# HTML for shortcodes
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
