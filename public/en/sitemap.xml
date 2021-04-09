@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://koda.rise.se/koda/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/news/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://koda.rise.se/sv/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koda.rise.se/news/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/koda/jupyter-hub/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/koda/jupyter-hub/example-a/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/koda/koda-api/examples/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/koda/koda-api/how-to-use-the-koda-api/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/koda/koda-api/what-is-the-koda-api/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/cases/</loc>
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://koda.rise.se/sv/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koda.rise.se/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://koda.rise.se/sv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koda.rise.se/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koda.rise.se/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="https://koda.rise.se/sv/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koda.rise.se/tags/"
+                />
+  </url>
+  
+</urlset>
