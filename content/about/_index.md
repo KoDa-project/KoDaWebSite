@@ -7,4 +7,6 @@ weight: 3
 layout: info
 ---
 
-# About Kollektivtrafikens datalabb
+# About kollektivtrafikens datalabb
+
+Kollektivtrafikens datalabb är ... 

@@ -7,21 +7,25 @@ repository.
 
 The website files can be found in the directory [content](./content).
 
-
 # Web site structure
+
+All documentation goes into /content/data/. News goes into /content/news/, use cases go into /content/cases/. Each
+folder should include an _index.md file to correctly detect the site structure. Each file contains front-matter,
+separated from the main content by 3 dashes (---). The front matter should always at least include a title. 
 
 The hierarchy of the website can be seen below
 
 ```
-index.md
+content/data
 │
-├── KoDaDatabase.md
+├── _index.md : documentation landing page
 │
-├── KoDaAPI.md
-│   └── Links to Swagger API documentation
-│
-└── examples.md
-    └── Links to Jupyter Hub server with interactive examples
+├── koda-api
+│   └── _index.md for menu structure
+│   └── content pages
+├── jupyter-hub
+│   └── _index.md for menu structure
+│   └── content pages
 ```
 
 # Testing the website
