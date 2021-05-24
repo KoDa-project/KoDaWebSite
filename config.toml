@@ -20,10 +20,6 @@ enableGitInfo = true
   languageName = "English"
   weight = 2
 
-  [languages.sv]
-  languageName = "Svenska"
-  weight = 1
-
 # HTML for shortcodes
 [markup]
   [markup.goldmark]
