@@ -1,4 +1,4 @@
-baseURL = "https://koda-project.github.io/KoDaWebSite/"
+baseURL = "https://koda.trafiklab.se/"
 defaultContentLanguage  = "en"
 
 title = "KoDa"
