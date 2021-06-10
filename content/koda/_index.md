@@ -4,7 +4,8 @@ menu: "main"
 translationKey: "koda"
 url: "/koda"
 weight: 1
-layout: info
+layout: single
+sidebar: true
 ---
 
 # The KoDa project

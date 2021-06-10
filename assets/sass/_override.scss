@@ -1,0 +1,40 @@
+body .header .logo {
+  background: none;
+}
+
+body.type-page .header .top-navigation {
+  background: #fff;
+  color: $black;
+}
+
+body.type-page .header .top-navigation .tl-top-navigation-item a {
+  color: $black;
+}
+
+.home-container__traveling-abroad {
+  display: none;
+}
+
+.header-section.section-contrast::before {
+  background: none;
+}
+
+.header-section .header-container {
+  color: $black;
+}
+
+.header-section.section-contrast::after {
+  background: none;
+}
+
+.footer-friends {
+  display: none;
+}
+
+#footer {
+  height: auto;
+}
+
+#main-content {
+  padding-bottom: 0;
+}

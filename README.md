@@ -16,7 +16,7 @@ separated from the main content by 3 dashes (---). The front matter should alway
 The hierarchy of the website can be seen below
 
 ```
-content/data
+content/koda
 │
 ├── _index.md : documentation landing page
 │
