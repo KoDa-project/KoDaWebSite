@@ -14,7 +14,7 @@ Kollektivtrafikens Datalabb (KoDa) aims to collect, store, and provide a histori
 
 # KoDa API
 
-To access the KoDa data the user has to interact via the [KoDa API](.https://api.koda.trafiklab.se/KoDa/api/v2/swagger/). The KoDa API allows the user to access the raw static and real time GTFS data via special API calls.
+To access the KoDa data the user has to interact via the [KoDa API](https://api.koda.trafiklab.se/KoDa/api/v2/swagger/). The KoDa API allows the user to access the raw static and real time GTFS data via special API calls.
 
 # KoDa Database
 
