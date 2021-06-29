@@ -6,7 +6,7 @@ title: "Usage"
 
 ## Quick Test
 To test that the API is live and the server is not down try 
-[https://koda.linkoping-ri.se/KoDa/api/v2/hello](https://koda.linkoping-ri.se/KoDa/api/v2/hello)
+[https://api.koda.trafiklab.se/KoDa/api/v2/hello](https://api.koda.trafiklab.se/KoDa/api/v2/hello)
 
 ## Normal Usage
 
@@ -21,14 +21,14 @@ The following request to koda.linkoping-ri.se will create and return a tar.bz2 a
 The archive name is: `otraf-VehiclePositions-2020-04-02.tar.bz2` and it will be stored in the `./otraf/VehiclePositions/2020/04` folder.
 If the same request is repeated the stored file will be returned. For the GTFSStatic feed the original file is returned which is a .zip file.
 
-  `wget 'https://koda.linkoping-ri.se/KoDa/api/v2/gtfs-rt/otraf/VehiclePositions?date=2020-04-02&key=aVery53kRETk3Y'`
+  `wget 'https://api.koda.trafiklab.se/KoDa/api/v2/gtfs-rt/otraf/VehiclePositions?date=2020-04-02&key=aVery53kRETk3Y'`
 
 To request only data for one hour add the `hour` parameter. 
 The archive name returned will be: `otraf-VehiclePositions-2020-05-25_12.tar.bz2` 
 
-  `wget 'https://koda.linkoping-ri.se/KoDa/api/v2/gtfs-rt/otraf/VehiclePositions?date=2020-05-25&hour=12&key=aVery53kRETk3Y'`
+  `wget 'https://api.koda.trafiklab.se/KoDa/api/v2/gtfs-rt/otraf/VehiclePositions?date=2020-05-25&hour=12&key=aVery53kRETk3Y'`
   
-  `wget 'https://koda.linkoping-ri.se/KoDa/api/v2/gtfs-rt/otraf/TripUpdates?date=2020-05-26&hour=12&key=aVery53kRETk3Y'`
+  `wget 'https://api.koda.trafiklab.se/KoDa/api/v2/gtfs-rt/otraf/TripUpdates?date=2020-05-26&hour=12&key=aVery53kRETk3Y'`
 
 Note: curl can be used as well but compression should be turned off as it results in corrupted files.
   
