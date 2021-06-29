@@ -10,7 +10,7 @@ sidebar: true
 
 # The KoDa project
 
-The KoDa project general description .....
+Kollektivtrafikens Datalabb (KoDa) aims to collect, store, and provide a historical open data record of the real time and static data that is provided by in the Trafiklab.se open data service. There are to access the collected data in this page we give references on how to use the REST API interface. 
 
 # KoDa API
 
