@@ -1,5 +1,5 @@
 ---
-title: "The Koda api"
+title: "The Koda Projekt"
 menu: "main"
 translationKey: "koda"
 url: "/koda"
