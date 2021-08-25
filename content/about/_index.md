@@ -4,7 +4,7 @@ menu: "main"
 translationKey: "about"
 url: "/about"
 weight: 3
-layout: info
+layout: about
 ---
 
 # About kollektivtrafikens datalabb

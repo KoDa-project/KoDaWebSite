@@ -21,6 +21,11 @@ body.type-page .header .top-navigation .tl-top-navigation-item a {
 
 .header-section .header-container {
   color: $black;
+
+  p {
+    height: auto;
+    line-height: 2rem;
+  }
 }
 
 .header-section.section-contrast::after {
@@ -37,4 +42,12 @@ body.type-page .header .top-navigation .tl-top-navigation-item a {
 
 #main-content {
   padding-bottom: 0;
+}
+
+.site-header .logo {
+  background-color: white;
+}
+
+.with-footer #page-content {
+  padding-bottom: 30rem !important;
 }
