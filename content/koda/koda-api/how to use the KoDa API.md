@@ -11,8 +11,11 @@ To test that the API is live and the server is not down try
 ## Normal Usage
 
 The API has two primary modes of accessing the data: 
-1. downloading the raw GTFS files as they were retrieved from Trafiklab at the time of download
-2. processed data stored in a Cassandra database (only available for users with KoDa JupyterHub access).
+1. downloading the historical raw GTFS data as they were retrieved from Trafiklab at the time of download
+The KoDa API Swagger documentation lists available endpoints and query parameters to use for downloading historical data. It can be found at  
+[https://koda.linkoping-ri.se/KoDa/api/v2/swagger/](https://koda.linkoping-ri.se/KoDa/api/v2/swagger/)
+
+3. processed data stored in a Cassandra database (only available for users with KoDa JupyterHub access).
 
 ## Request of access keys
 
