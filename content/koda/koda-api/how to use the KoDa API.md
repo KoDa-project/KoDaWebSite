@@ -10,16 +10,14 @@ To test that the API is live and the server is not down try
 
 ## Normal Usage
 
-The API has two primary modes of accessing the data: 1) downloading the raw GTFS files as they were retrieved from Trafiklab at the time of download and 2) processed data stored in a Cassandra database (only available for users with KoDa JupyterHub access).
+The API has two primary modes of accessing the data: 
+1. downloading the raw GTFS files as they were retrieved from Trafiklab at the time of download
+2. processed data stored in a Cassandra database (only available for users with KoDa JupyterHub access).
 
 ## Request of access keys
 
 An access key is required to gain access to the KoDa API. The access key is requested thruogh the Samtrafikens and Trafiklabs open data API administrartion web pages. [https://need.correct.url/here](https://https://need.correct.url/here)
 
-## API documentation
-
-The KoDa API Swagger documentation lists available endpoints and query parameters and can be found at  
-[https://koda.linkoping-ri.se/KoDa/api/v2/swagger/](https://koda.linkoping-ri.se/KoDa/api/v2/swagger/)
 
 ## GTFS Real Time file download
 The following request to koda.linkoping-ri.se will create and return a tar.bz2 archive for the VehiclePositions feed for Östgötatrafiken for April 02, 2020. 
