@@ -23,7 +23,7 @@ An access key is required to gain access to the KoDa API. The access key is requ
 
 
 ## GTFS Real Time file download
-The following request to koda.linkoping-ri.se will create and return a tar.bz2 archive for the VehiclePositions feed for Östgötatrafiken for April 02, 2020. 
+[comment]: <> The following request to koda.linkoping-ri.se will create and return a tar.bz2 archive for the VehiclePositions feed for Östgötatrafiken for April 02, 2020. 
 The archive name is: `otraf-VehiclePositions-2020-04-02.tar.bz2` and it will be stored in the `./otraf/VehiclePositions/2020/04` folder.
 If the same request is repeated the stored file will be returned. For the GTFSStatic feed the original file is returned which is a .zip file.
 
