@@ -133,38 +133,6 @@ The KoDa API Swagger documentation lists available endpoints and query parameter
 </ol>
 <h2 id=request-of-access-keys>Request of access keys</h2>
 <p>An access key is required to gain access to the KoDa API. The access key is requested thruogh the Samtrafikens and Trafiklabs open data API administrartion web pages. <a href=https://https://need.correct.url/here>https://need.correct.url/here</a></p>
-<h2 id=gtfs-real-time-file-download>GTFS Real Time file download</h2>
-<p>[comment]: &lt;> The following request to koda.linkoping-ri.se will create and return a tar.bz2 archive for the VehiclePositions feed for Östgötatrafiken for April 02, 2020.
-The archive name is: <code>otraf-VehiclePositions-2020-04-02.tar.bz2</code> and it will be stored in the <code>./otraf/VehiclePositions/2020/04</code> folder.
-If the same request is repeated the stored file will be returned. For the GTFSStatic feed the original file is returned which is a .zip file.</p>
-<p><code>wget 'https://api.koda.trafiklab.se/KoDa/api/v2/gtfs-rt/otraf/VehiclePositions?date=2020-04-02&key=aVery53kRETk3Y'</code></p>
-<p>To request only data for one hour add the <code>hour</code> parameter.
-The archive name returned will be: <code>otraf-VehiclePositions-2020-05-25_12.tar.bz2</code></p>
-<p><code>wget 'https://api.koda.trafiklab.se/KoDa/api/v2/gtfs-rt/otraf/VehiclePositions?date=2020-05-25&hour=12&key=aVery53kRETk3Y'</code></p>
-<p><code>wget 'https://api.koda.trafiklab.se/KoDa/api/v2/gtfs-rt/otraf/TripUpdates?date=2020-05-26&hour=12&key=aVery53kRETk3Y'</code></p>
-<p>Note: curl can be used as well but compression should be turned off as it results in corrupted files.</p>
-<p>Valid values for feed are:</p>
-<ul>
-<li>VehiclePositions - file format is tar.bz2</li>
-<li>TripUpdates - file format is tar.bz2</li>
-<li>ServiceAlerts - file format is tar.bz2</li>
-<li>GTFSStatic - file format is zip; this is the original file downloaded from the GTFS Regional Static API.</li>
-</ul>
-<p>Valid values for company are:</p>
-<ul>
-<li>dintur - Västernorrlands län: Only GTFSStatic</li>
-<li>dt - Dalatrafik</li>
-<li>klt - Kalmar länstrafik</li>
-<li>krono - Kronobergs Länstrafik: Only GTFSStatic</li>
-<li>otraf - Östgötatrafiken</li>
-<li>sj - SJ + Snälltåget + Tågab: Only GTFSStatic</li>
-<li>skane - Skånetrafiken</li>
-<li>sl - Stockholm län: All feeds without VehiclePositions</li>
-<li>ul - Uppsala län</li>
-<li>varm - Värmlandstrafik+Karlstadbuss</li>
-<li>vt - Västtrafik: Only GTFSStatic</li>
-<li>xt - X-trafik</li>
-</ul>
 </main>
 <footer class=docs-footer>
 Last updated: November 9, 2021
