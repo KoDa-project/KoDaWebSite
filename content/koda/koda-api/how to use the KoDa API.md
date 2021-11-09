@@ -15,7 +15,7 @@ The API has two primary modes of accessing the data:
 The KoDa API Swagger documentation lists the available endpoints and query parameters to use for downloading historical data. It can be found at  
 [https://koda.linkoping-ri.se/KoDa/api/v2/swagger/](https://koda.linkoping-ri.se/KoDa/api/v2/swagger/)
 
-3. processed data stored in a Cassandra database (only available for users with KoDa JupyterHub access).
+3. working with the processed data stored in a Cassandra database (only available for users with KoDa JupyterHub access).
 
 ## Request of access keys
 
