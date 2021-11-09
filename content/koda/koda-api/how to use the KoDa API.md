@@ -16,6 +16,11 @@ The API has two primary mode of accessing the data the first is to download the 
 
 An access key is required to gain access to the KoDa API.  The access key is requested thruogh the Samtrafikens and Trafiklabs open data API administrartion web pages. [https://need.correct.url/here](https://https://need.correct.url/here)
 
+## API documentation
+
+The KoDa API documentation is found at  
+[https://koda.linkoping-ri.se/KoDa/api/v2/swagger/](https://koda.linkoping-ri.se/KoDa/api/v2/swagger/)
+
 ## GTFS Real Time file download
 The following request to koda.linkoping-ri.se will create and return a tar.bz2 archive for the VehiclePositions feed for Östgötatrafiken for April 02, 2020. 
 The archive name is: `otraf-VehiclePositions-2020-04-02.tar.bz2` and it will be stored in the `./otraf/VehiclePositions/2020/04` folder.
