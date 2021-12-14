@@ -1,10 +1,6 @@
 # KoDaWebSite
 
-This repository is used to create the contents of the KoDa web page.
-
-All files related to the design, implementation as well as content for the KoDa web site can be found in this
-repository.
-
+This repository was used to create the contents of the KoDa web page while waiting for it to be published on Trafiklab.
 The website files can be found in the directory [content](./content).
 
 # Web site structure
@@ -27,7 +23,3 @@ content/koda
 │   └── _index.md for menu structure
 │   └── content pages
 ```
-
-# Testing the website
-
-To render the website locally, run `hugo -serve`
